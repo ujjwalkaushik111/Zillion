@@ -15,7 +15,7 @@
 <body>
     <!-- first section -->
 
-    <section class="d-flex flex-column height-top position-relative bg-image">
+    <section class="d-flex flex-column height-top position-relative bg-image" id="Home">
         <nav class="z-3">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center justify-content-center pt-5">
@@ -26,19 +26,23 @@
                         <ul class="d-flex align-items-center flex-column flex-lg-row gap-5 list-unstyled sm-screen justify-content-center"
                             id="nav-typee">
                             <li>
-                                <a class="name" href="#Home">Home</a>
+                                <a onclick="navbartoggle()" class="name" href="#Home">Home</a>
                             </li>
                             <li>
-                                <a class="name" href="#Services">Services</a>
+                                <a onclick="navbartoggle()" class="name" href="#Services">Services</a>
                             </li>
                             <li>
-                                <a class="name" href="#Investors">Investors</a>
+                                <a onclick="navbartoggle()" class="name" href="#Investors">Investors</a>
                             </li>
                             <li>
-                                <a class="name" href="#About-us">About Us</a>
+                                <a onclick="navbartoggle()" class="name" href="#About-us">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#ContactUs"><button onclick="navbartoggle()" class=" button-l">Contact
+                                        Us</button></a>
                             </li>
                         </ul>
-                        <button onclick="navbartoggle()" class="ms-md-5 ms-0 z-1 button-l">Contact Us</button>
+                        <button onclick="navbartoggle()" class="ms-md-5 ms-0 z-1 button-l d-lg-none">Menu</button>
                     </div>
                 </div>
             </div>
@@ -54,7 +58,7 @@
     </section>
     <!-- 2nd section -->
     <!-- 3rd section -->
-    <section class="bg-color py-5">
+    <section class="bg-color py-5" id="Services">
         <div class="container position-relative">
             <div class="transform-box p-5 mt-5 w-100">
                 <div class="row">
@@ -246,7 +250,7 @@
         </div>
     </section>
     <!-- 5Th section -->
-    <section class="bg-F1F3F6 vh-10 0 overflow-hidden img-3-sec">
+    <section class="bg-F1F3F6 vh-10 0 overflow-hidden img-3-sec" id="Investors">
         <div class="container">
             <div class="row justify-content-between align-items-center flex-lg-column_reverse pb-5">
                 <div class="col-lg-6">
@@ -390,7 +394,7 @@
         </div>
     </section>
     <!-- 8Th section -->
-    <section class="bg-black py-5">
+    <section class="bg-black py-5" id="About-us">
         <div class="container pt-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-12">
