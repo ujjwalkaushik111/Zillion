@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+
+.height-top {
+    height: 850px;
+}
+
+.bg-image {
+    background-image: url(../image/Vincent-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mb-lg {
+    margin-bottom: 40%;
+}
+
+.name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.button-l {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: rgba(207, 207, 207, 0.22);
+    border: 3px solid #FFFFFF;
+    border-radius: 27px;
+    padding: 13px 36px;
+}
+
+.button-k {
+    background: #FFFFFF;
+    border-radius: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding: 13px 37px;
+    color: #000000;
+    border: none;
+}
+
+.h1-A {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 729px;
+}
+
+.h1-define {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.p-define {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    max-width: 332px;
+    color: #515151;
+}
+
+.transform-box {
+    transform: translateY(-150%);
+    background: #FFFFFF;
+
+}
+
+.margin-top {
+    margin-top: 200px !important;
+}
+
+/* section-3 */
+
+.bg-color {
+    background: #F1F3F6;
+}
+
+.h1-Funds {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: justify;
+    color: #000000;
+    max-width: 239px;
+    margin-bottom: 60px;
+}
+
+.p-Z {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #515151;
+    max-width: 664px;
+    margin-bottom: 16%;
+}
+
+.p-six {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+/* section-4 */
+
+.h1-we {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    max-width: 742px;
+    color: #000000;
+}
+
+.h1-strong {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
+.p-Focus {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    max-width: 371px;
+    color: #515151;
+}
+
+@media (min-width:992px) {
+    .transform-box {
+        position: absolute;
+        transform: translateX(-50%) translateY(-150%);
+        background: #FFFFFF;
+        top: 0;
+        left: 50%;
+
+    }
+}
+
+@media (max-width:992px) {
+
+    .sm-screen {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        background-color: rgb(95, 87, 216);
+        left: -100%;
+        z-index: -1;
+        transition: all 300ms linear;
+    }
+
+    .show {
+        left: 0;
+    }
+
+    .h1-we {
+        font-size: 25px;
+    }
+
+    .transform-box {
+        transform: translateY(-20%);
+        background: #FFFFFF;
+
+    }
+
+    .margin-top {
+        margin-top: 0px !important;
+    }
+
+
+}
+
+@media (max-width:786px) {
+    .h1-we {
+        font-size: 20px;
+    }
+
+    .h1-A {
+        font-size: 48px;
+    }
+
+
+}
+
+@media (max-width:556px) {
+    .h1-we {
+        font-size: 14px;
+    }
+
+    .h1-A {
+        font-size: 22px;
+    }
+
+    .button-l {
+        font-size: 12px;
+    }
+
+}
