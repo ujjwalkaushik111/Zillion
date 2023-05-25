@@ -19,6 +19,21 @@ ul {
     height: 850px;
 }
 
+.underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(209, 110, 218);
+    transition: all 200ms linear;
+}
+
+.underline:hover::after {
+    width: 100%;
+}
+
 .bg-image {
     background-image: url(../image/Vincent-image.png);
     background-repeat: no-repeat;
